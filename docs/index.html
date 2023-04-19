@@ -1,0 +1,57 @@
+---
+layout: default
+---
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unsplash Credit Example</title>
+<style>
+  .image-container {
+    display: inline-block;
+    position: relative;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+
+  .image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .credit {
+    display: block;
+    padding: 4px 8px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-decoration: none;
+  }
+
+  .credit:hover {
+    text-decoration: underline;
+  }
+</style>
+
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
+
+      {% if post.categories contains "external" %}
+      <h1><a href="{{ post.link }}" target="_blank" rel="noopener noreferrer">{{ post.title }} </a></h1>
+      {% else %}
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      {% endif %}
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+      {% if post.categories contains "external" %}
+      <a href="{{ post.link }}" class="read-more" target="_blank" rel="noopener noreferrer">Read More</a>
+      {% else %}
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      {% endif %}
+    </article>
+  {% endfor %}
+</div>
