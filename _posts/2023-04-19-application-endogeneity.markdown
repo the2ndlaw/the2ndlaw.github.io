@@ -14,9 +14,10 @@ date:   2023-04-19 00:00:00 +0100
 
 As a machine learning engineer who left his PhD studies behind for the world of applied industry ML research, I've encountered a conundrum that often goes unaddressed: Application Endogeneity. In this blog post, I'll explain what I mean by this term and share personal experiences to illustrate its impact on applied research in machine learning including recent developments, such as ChatGPT.
 
-## What is Endogeneity?
-
 <!--more-->
+
+
+## What is Endogeneity?
 
 Endogeneity is the property of being influenced within a system. In the context of applied research, the system is the product. This means that nothing is truly objective or can be held constant, as every component affects everything else. In my experience working on conversational AI, for example, this has significant implications.
 

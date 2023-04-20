@@ -10,8 +10,8 @@ link: https://www.cognigy.com/blog/cognigys-universal-language-understading-mode
 ---
 
 <div class="image-container">
-  <img src="/assets/image/visualization2.png">
-  <a href="https://arxiv.org/abs/2009.12862" target="_blank" class="credit">Source: Chenni & Shutova (2020)</a>
+  <img src="/assets/image/visualization2.png" alt="Image">
+  <a href="https://arxiv.org/abs/2009.12862" target="_blank" class="credit">Chenni & Shutova (2020)</a>
 </div>
 
 
