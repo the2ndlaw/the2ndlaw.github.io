@@ -5,8 +5,11 @@ layout: default
 <div class="posts">
   {% for post in paginator.posts %}
   <article class="post">
-
+    {% if post.categories contains "external" %}
+    <h1><a href="{{ post.link }}" target="_blank" rel="noopener noreferrer">{{ post.title }} </a></h1>
+    {% else %}
     <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+    {% endif %}
 
     <div class="entry">
       {% if post.content contains '<!--more-->' %}
@@ -19,8 +22,11 @@ layout: default
 
       {% endif %}
     </div>
-
+    {% if post.categories contains "external" %}
+    <a href="{{ post.link }}" class="read-more" target="_blank" rel="noopener noreferrer">Read more&nbsp;&#183;{% include read-time.html content=post.content %}</a>
+    {% else %}
     <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read more&nbsp;&#183;{% include read-time.html content=post.content %}</a>
+    {% endif %}
   </article>
   {% endfor %}
 
