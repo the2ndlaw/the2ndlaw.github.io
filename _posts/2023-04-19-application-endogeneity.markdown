@@ -8,7 +8,7 @@ date:   2023-04-19 00:00:00 +0100
 
 
 <div class="image-container">
-  <img src="/images/nareeta-martin-_gFWc1J57Z4-unsplash.jpg" alt="Unsplash Image">
+  <img src="/assets/image/nareeta-martin-_gFWc1J57Z4-unsplash.jpg" alt="Unsplash Image">
   <a href="https://unsplash.com/@splashabout?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" class="credit"> Nareeta Martin on Unsplash</a>
 </div>
 

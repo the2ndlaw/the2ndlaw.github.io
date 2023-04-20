@@ -8,7 +8,7 @@ published: True
 ---
 
 <div class="image-container">
-  <img src="/images/connections.jpeg" alt="Unsplash Image">
+  <img src="/assets/image/connections.jpeg" alt="Unsplash Image">
   <a href="https://unsplash.com/" target="_blank" class="credit">Photo Credit: Unsplash</a>
 </div>
 

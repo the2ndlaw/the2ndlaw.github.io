@@ -11,7 +11,7 @@ published: true
 
 layout: post
 header:
-  image: /images/connections.jpeg
+  image: /assets/image/connections.jpeg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 
 ---
@@ -22,7 +22,7 @@ header:
 # Introduction
 
 <div class="image-container">
-  <img src="/images/connections.jpeg" alt="Unsplash Image">
+  <img src="/assets/image/connections.jpeg" alt="Unsplash Image">
   <a href="https://unsplash.com/" target="_blank" class="credit">Photo credit: Unsplash</a>
 </div>
 

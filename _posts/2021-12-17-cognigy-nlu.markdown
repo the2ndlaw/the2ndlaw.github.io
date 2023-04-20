@@ -14,7 +14,7 @@ border-top: 1px solid rgba(0, 0, 0, 0.1);;" class="l-screen">
 
 <div class="l-page">
 <figure style="text-align: center; padding: 15px">
-<img src="/images/visualization2.png" style="border:1px solid #bbb; width: 90%; margin: 0 auto; text-align: center"/>
+<img src="/assets/image/visualization2.png" style="border:1px solid #bbb; width: 90%; margin: 0 auto; text-align: center"/>
         <figcaption style="text-align:left">
             t-SNE plots of representations from layers of LASER (top) and M-BERT (bottom), where layer 0 corresponds to the non-contextualized token embeddings.<br/>
             Source: Rochelle Choenni and Ekaterina Shutova: What does it mean to be language-agnostic? Probing multilingual sentence encoders for typological properties<br/>
